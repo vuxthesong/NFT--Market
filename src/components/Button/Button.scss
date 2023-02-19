@@ -1,0 +1,22 @@
+button {
+  border-radius: 4rem;
+  padding: 1.1rem 2rem;
+  min-width: 156px;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  &:hover{
+    opacity: 0.8;
+  border: 1px solid rgb(138, 138, 138);
+
+  }
+}
+.blue {
+  color: white;
+  background-color: #2d69fd;
+  border: 1px solid #2d69fd;
+
+}

@@ -1,0 +1,49 @@
+.container-section {
+    margin: 0 6rem;
+    margin-bottom: 5rem;
+
+
+    .title {
+      text-align: center;
+      h2 {
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+    }
+
+    .content{
+        background-color: #232835;
+        padding: 5rem;
+        border-radius: 1rem;
+        gap: 5rem;
+        display: flex;
+        justify-content: space-evenly;
+        .createAndSell{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap : 2rem;
+            background-color: #ffffff34;
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+        .image {
+            background-color: #2d69fd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1rem;
+            width: max-content;
+            border-radius: 2rem;
+            img {
+              height: 2rem;
+            }
+        }
+    }
+    @media screen and (min-width: 280px) and (max-width: 1080px) {
+        .content{
+            flex-direction: column;
+            margin-bottom: 2rem;
+        }
+    }
+}
